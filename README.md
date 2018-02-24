@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This document is designed to be a brief but concise guide for developers to take their MySQL knowledge beyond creating and running queries to keep their databases performant. It's a "pocket guide" that tries to summarize the information already available in the MySQL manual and cover the most common use cases, with references for those who want to delve deeper.
 
@@ -481,7 +481,7 @@ If you need to perform unique checks against the contents of `TEXT` fields, cons
 
 ## Numbers
 
-###Caveats with Large Numbers
+### Caveats with Large Numbers
 
 MySQL arithmetic is done using **signed** `BIGINT` or `DOUBLE` values, so you should not use unsigned big integers larger than 9,223,372,036,854,775,807 (63 bits) except with bit functions.
 
